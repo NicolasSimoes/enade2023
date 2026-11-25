@@ -1,0 +1,8 @@
+algoritmo,melhores hiperparâmetros,tempo da busca (s),tempo de treino final (s)
+Bagging (Árvores),árvore-base.max_depth=None,75.720782995224,35.32784461975098
+Random Forest,"max_depth=None, min_samples_leaf=1",21.684845685958862,6.509503602981567
+AdaBoost (Árvores rasas),"árvore-base.max_depth=2, learning_rate=0.5",57.5407395362854,17.453832864761353
+Votação majoritária (3 melhores),—,9.379420757293701,2.3461060523986816
+Votação por probabilidades (3 melhores),—,30.98383927345276,7.276376247406006
+Votação por probabilidades (6 algoritmos),—,32.40595746040344,8.077633142471313
+Empilhamento (6 algoritmos),—,45.633129835128784,16.657625198364258
